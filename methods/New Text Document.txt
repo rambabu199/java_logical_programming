@@ -1,0 +1,11 @@
+1) start
+2) read a,b,c
+3)if((a<=9)&&(b<=9)&&(c<=9)) then goto step 4          1,5,6
+			else goto step 10
+4) print a,b,c				1 5 6
+5) print a,c,b				1 6 5
+6) print b,a,c				5 1 6
+7)print b,c,a				5 6 1
+8) print c,a,b 6 1 5
+9)print c,b,a  6 5 1
+10) stop
